@@ -18,7 +18,7 @@ const Partner = () => {
       <h2 className="py-4 relative text-center text-4xl font-semibold after:h-[2px] after:w-10 after:absolute after:bg-grey-100 after:bottom-0 after:left-[50%] after:content-['']">Partnership and Sponsorship</h2>
       <h4 className="font-semibold text-lg text-center">Elevate Experiences, Elevate Brands</h4>
 
-      <div className="flex flex-col md:flex-row gap-6 max-w-7xl m-auto items-center py-7">
+      <div className="flex flex-col lg:flex-row gap-6 max-w-7xl m-auto items-center py-7">
         <article className="flex flex-col gap-10 p-6 border border-green-30 rounded-lg py-10 pb-20">
           <div className="flex flex-col gap-3">
             <h3 className="text-xl font-semibold uppercase">PLATINUM</h3>
@@ -37,7 +37,7 @@ const Partner = () => {
                   return;
                 }
                 return (
-                <li key={perk} className="flex gap-2">
+                <li key={perk} className="flex gap-2 items-center">
                   <div className="rounded-full p-1 w-[7%] bg-green-10">
                     <img src={tick} alt="TIck" />
                   </div>
@@ -65,8 +65,8 @@ const Partner = () => {
               perks.map((perk, i) => {
 
                 return (
-                <li key={perk} className="flex gap-2">
-                  <div className="rounded-full p-1 w-[7%] bg-green-10">
+                <li key={perk} className="flex gap-2 items-center">
+                  <div className="rounded-full p-1 w-[8%] bg-green-10">
                     <img src={tick} alt="TIck" />
                   </div>
                   <p>{perk}</p>
@@ -95,7 +95,7 @@ const Partner = () => {
                   return;
                 }
                 return (
-                <li key={perk} className="flex gap-2">
+                <li key={perk} className="flex gap-2 items-center">
                   <div className="rounded-full p-1 w-[7%] bg-green-10">
                     <img src={tick} alt="TIck" />
                   </div>

@@ -2,6 +2,7 @@ import About from "../components/About";
 import Header from "../components/Header"
 import Headline from "../components/Headline";
 import Partner from "../components/Partner";
+import Recap from "../components/Recap";
 
 const Home = () => (
   <>
@@ -9,6 +10,7 @@ const Home = () => (
     <Headline />
     <About />
     <Partner />
+    <Recap />
   </>
 );
 
