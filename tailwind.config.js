@@ -31,6 +31,9 @@ export default {
       },
       backgroundImage: {
         'backone': "url('../images/bg1.png')"
+      },
+      backgroundPosition: {
+        'left-right': 'right center, left center'
       }
     },
   },

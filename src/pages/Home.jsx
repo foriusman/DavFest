@@ -1,4 +1,5 @@
 import About from "../components/About";
+import Footer from "../components/Footer";
 import Header from "../components/Header"
 import Headline from "../components/Headline";
 import Partner from "../components/Partner";
@@ -11,6 +12,7 @@ const Home = () => (
     <About />
     <Partner />
     <Recap />
+    <Footer />
   </>
 );
 
