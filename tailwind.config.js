@@ -34,6 +34,15 @@ export default {
       },
       backgroundPosition: {
         'left-right': 'right center, left center'
+      },
+      keyframes: {
+        scroll: {
+          '0%': {transform: 'translateX(100%)'},
+          '100%': {transform: 'translateX(-105%)'}
+        }
+      },
+      animation: {
+        scroll: 'scroll 25s linear infinite',
       }
     },
   },

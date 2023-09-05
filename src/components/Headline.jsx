@@ -4,15 +4,17 @@ const Headline = () => {
   return (
     <section className="bg-backone bg-no-repeat bg-cover h-[40rem] relative flex px-5 justify-center items-center">
       <div className="flex flex-col bg-white-10 gap-5 rounded-xl py-20 px-9 text-center items-center">
-        <h1 className="text-green-30 text-3xl font-bold">DevFest 2023</h1>
+        <h1 className="text-green-30 text-3xl font-bold">DevFest Maiduguri 2023</h1>
         <p className="text-md font-semibold">The Ultimate Developer Experience: Be Part of the Story!!!</p>
+        <h2 className="text-red-10 text-center font-light text-3xl">Sat, 18th Nov, 2023</h2>
         <RegisterBtn />
       </div>
 
-      <div className="bg-white-10 rounded-xl absolute bottom-0 translate-y-1/2 w-[90%] overflow-auto m-auto py-5 px-11 flex flex-col gap-5">
+      <div className="bg-white-10 rounded-xl absolute bottom-0 translate-y-1/2 w-[90%] m-auto py-5 px-11 flex flex-col gap-5 overflow-hidden">
         <h2 className="text-xl font-semibold">NO OF ATTENDEES</h2>
         
-        <ul className="flex items-center justify-between w-full min-w-[768px]">
+        <div>
+        <ul className="flex items-center justify-between w-full min-w-[768px] animate-scroll">
           <li className="flex flex-col gap-2 items-center">
             <h3 className="text-2xl font-semibold">473+</h3>
             <p className="text-sm font-light">Devfest’22</p>
@@ -43,7 +45,7 @@ const Headline = () => {
             <p className="text-sm font-light">I/0 Extended’23</p>
           </li>
         </ul>
-        
+        </div>
         
       </div>
     </section>
