@@ -10,8 +10,8 @@ const Headline = () => {
         <RegisterBtn />
       </div>
 
-      <div className="bg-white-10 rounded-xl absolute bottom-0 translate-y-1/2 w-[90%] m-auto py-5 px-11 flex flex-col gap-5 overflow-hidden">
-        <h2 className="text-xl font-semibold">NO OF ATTENDEES</h2>
+      <div className="bg-white-10 rounded-xl absolute bottom-0 translate-y-1/2 w-[90%] m-auto py-5 px-5 md:px-11 flex flex-col gap-5 overflow-hidden">
+        <h2 className="md:text-lg text-sm text-center md:text-left font-semibold uppercase">Number OF ATTENDEES at previous events</h2>
         
         <div>
         <ul className="flex items-center justify-between w-full min-w-[768px] animate-scroll">
