@@ -39,10 +39,15 @@ export default {
         scroll: {
           '0%': {transform: 'translateX(100%)'},
           '100%': {transform: 'translateX(-105%)'}
+        },
+        scrollphone: {
+          '0%': {transform: 'translateX(50%)'},
+          '100%': {transform: 'translateX(-105%)'}
         }
       },
       animation: {
         scroll: 'scroll 25s linear infinite',
+        scrollp: 'scrollphone 25s linear infinite'
       }
     },
   },

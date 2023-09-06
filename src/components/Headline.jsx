@@ -14,7 +14,7 @@ const Headline = () => {
         <h2 className="md:text-lg text-sm text-center md:text-left font-semibold uppercase">Number OF ATTENDEES at previous events</h2>
         
         <div>
-        <ul className="flex items-center justify-between w-full min-w-[768px] animate-scroll">
+        <ul className="flex items-center justify-between w-full min-w-[768px] md:animate-scroll animate-scrollp">
           <li className="flex flex-col gap-2 items-center">
             <h3 className="text-2xl font-semibold">473+</h3>
             <p className="text-sm font-light">Devfest’22</p>
