@@ -18,15 +18,15 @@ const Partner = () => {
       <h4 className="font-semibold text-lg text-center">Elevate Experiences, Elevate Brands</h4>
 
       <div className="flex flex-col lg:flex-row gap-6 max-w-7xl m-auto items-center py-7">
-        <article className="flex flex-col gap-10 p-6 border border-green-30 rounded-lg py-10 pb-20 order-1">
+        <article className="flex flex-col gap-10 p-6 border border-blue-30 rounded-lg py-10 pb-20 order-1">
           <div className="flex flex-col gap-3">
             <h3 className="text-xl font-semibold uppercase">PLATINUM</h3>
             <p>Platinum Excellence: Your Journey to Unmatched Recognition.</p>
           </div>
 
           <div className="flex flex-col gap-3">
-            <span className="text-5xl font-bold">N300,000</span>
-            <Link className="text-center rounded-md border border-green-30 px-7 py-2 font-light text-green-30" to='https://forms.gle/3Au6a1LvMcsyGsAH8'>Get Started Now</Link>
+            <span className="text-5xl font-bold">N100,000</span>
+            <Link className="text-center rounded-md border border-blue-30 px-7 py-2 font-light text-blue-30" to='https://forms.gle/3Au6a1LvMcsyGsAH8'>Get Started Now</Link>
           </div>
 
           <ul className="flex flex-col gap-2">
@@ -37,7 +37,7 @@ const Partner = () => {
                 }
                 return (
                 <li key={perk} className="flex gap-2 items-center">
-                  <div className="rounded-full p-1 w-[7%] bg-green-10">
+                  <div className="rounded-full p-1 w-[7%] bg-blue-10">
                     <img src={tick} alt="TIck" />
                   </div>
                   <p>{perk}</p>
@@ -45,7 +45,7 @@ const Partner = () => {
               )})
             }
             <li className="flex gap-2 items-center">
-              <div className="rounded-full p-1 w-[7%] bg-green-10">
+              <div className="rounded-full p-1 w-[7%] bg-blue-10">
                 <img src={tick} alt="TIck" />
               </div>
               <p>Sponsored Talk (15mins)</p>
@@ -54,14 +54,14 @@ const Partner = () => {
 
         </article>
 
-        <article className="flex flex-col gap-10 p-6 border border-green-30 rounded-lg py-10 text-white-10 bg-green-30 order-first lg:order-2">
+        <article className="flex flex-col gap-10 p-6 border border-blue-30 rounded-lg py-10 text-white-10 bg-blue-30 order-first lg:order-2">
           <div className="flex flex-col gap-3">
             <h3 className="text-xl font-semibold uppercase">DIAMOND</h3>
             <p>Sparkling Brilliance: Join as a Diamond sponsor and shine on.</p>
           </div>
 
           <div className="flex flex-col gap-3">
-            <span className="text-5xl font-bold">N500,000</span>
+            <span className="text-5xl font-bold">N200,000</span>
             <Link className="text-center rounded-md border border-white-10 px-7 py-2 font-light text-white-10" to='https://forms.gle/3Au6a1LvMcsyGsAH8'>Get Started Now</Link>
           </div>
 
@@ -71,7 +71,7 @@ const Partner = () => {
 
                 return (
                 <li key={perk} className="flex gap-2 items-center">
-                  <div className="rounded-full p-1 w-[8%] bg-green-10">
+                  <div className="rounded-full p-1 w-[8%] bg-blue-10">
                     <img src={tick} alt="TIck" />
                   </div>
                   <p>{perk}</p>
@@ -79,7 +79,7 @@ const Partner = () => {
               )})
             }
             <li className="flex gap-2 items-center">
-              <div className="rounded-full p-1 w-[8%] bg-green-10">
+              <div className="rounded-full p-1 w-[8%] bg-blue-10">
                 <img src={tick} alt="TIck" />
               </div>
               <p>Sponsored Talk (20mins)</p>
@@ -88,15 +88,15 @@ const Partner = () => {
 
         </article>
 
-        <article className="flex flex-col gap-10 p-6 border border-green-30 rounded-lg py-10 pb-24 order-3">
+        <article className="flex flex-col gap-10 p-6 border border-blue-30 rounded-lg py-10 pb-24 order-3">
           <div className="flex flex-col gap-3">
             <h3 className="text-lg font-bold uppercase">GOLD</h3>
             <p>Illuminate Your Brand with Gold: Shine in the Spotlight.</p>
           </div>
 
           <div className="flex flex-col gap-3">
-            <span className="text-5xl font-bold">N200,000</span>
-            <Link className="text-center rounded-md border border-green-30 px-7 py-2 font-light text-green-30" to='https://forms.gle/3Au6a1LvMcsyGsAH8'>Get Started Now</Link>
+            <span className="text-5xl font-bold">N50,000</span>
+            <Link className="text-center rounded-md border border-blue-30 px-7 py-2 font-light text-blue-30" to='https://forms.gle/3Au6a1LvMcsyGsAH8'>Get Started Now</Link>
           </div>
 
           <ul className="flex flex-col gap-2">
@@ -107,7 +107,7 @@ const Partner = () => {
                 }
                 return (
                 <li key={perk} className="flex gap-2 items-center">
-                  <div className="rounded-full p-1 w-[7%] bg-green-10">
+                  <div className="rounded-full p-1 w-[7%] bg-blue-10">
                     <img src={tick} alt="TIck" />
                   </div>
                   <p>{perk}</p>
@@ -115,7 +115,7 @@ const Partner = () => {
               )})
             }
             <li className="flex gap-2 items-center">
-              <div className="rounded-full p-1 w-[8%] bg-green-10">
+              <div className="rounded-full p-1 w-[8%] bg-blue-10">
                 <img src={tick} alt="TIck" />
               </div>
               <p>Sponsored Talk (10mins)</p>
