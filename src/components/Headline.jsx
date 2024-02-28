@@ -4,9 +4,9 @@ const Headline = () => {
   return (
     <section className="bg-backone bg-no-repeat bg-cover h-[40rem] relative flex px-5 justify-center items-center">
       <div className="flex flex-col bg-white-10 gap-5 rounded-xl py-20 px-9 text-center items-center">
-        <h1 className="text-green-30 text-3xl font-bold">DevFest Maiduguri 2023</h1>
-        <p className="text-md font-semibold">The Ultimate Developer Experience: Be Part of the Story!!!</p>
-        <h2 className="text-red-10 text-center font-light text-3xl">Sat, 18th Nov, 2023</h2>
+        <h1 className="text-blue-30 text-3xl font-bold">International Women's Day Maiduguri  2024</h1>
+        <p className="text-md font-semibold">IWD is Women Techmakers' grand celebration!!!</p>
+        <h2 className="text-red-10 text-center font-light text-3xl">Sat, 20th April, 2025</h2>
         <RegisterBtn />
       </div>
 
@@ -43,6 +43,10 @@ const Headline = () => {
           <li className="flex flex-col gap-2 items-center">
             <h3 className="text-2xl font-semibold">447+</h3>
             <p className="text-sm font-light">I/0 Extended’23</p>
+          </li>
+           <li className="flex flex-col gap-2 items-center">
+            <h3 className="text-2xl font-semibold">457+</h3>
+            <p className="text-sm font-light">Devfest Maiduguri 23</p>
           </li>
         </ul>
         </div>
