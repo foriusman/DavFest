@@ -15,7 +15,7 @@ export default {
         },
         green: {
           10: '#EDFFF6',
-          30: '#0B9D58'
+          30: '#2480F0'
         },
         white: {
           10: '#ffffff',
