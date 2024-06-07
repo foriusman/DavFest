@@ -25,7 +25,7 @@ const Partner = () => {
           </div>
 
           <div className="flex flex-col gap-3">
-            <span className="text-5xl font-bold">N100,000</span>
+            <span className="text-5xl font-bold">N80,000</span>
             <Link className="text-center rounded-md border border-green-30 px-7 py-2 font-light text-green-30" to='https://forms.gle/3Au6a1LvMcsyGsAH8'>Get Started Now</Link>
           </div>
 
@@ -61,7 +61,7 @@ const Partner = () => {
           </div>
 
           <div className="flex flex-col gap-3">
-            <span className="text-5xl font-bold">N200,000</span>
+            <span className="text-5xl font-bold">N100,000</span>
             <Link className="text-center rounded-md border border-white-10 px-7 py-2 font-light text-white-10" to='https://forms.gle/3Au6a1LvMcsyGsAH8'>Get Started Now</Link>
           </div>
 
